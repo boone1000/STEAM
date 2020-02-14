@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <Link to="/">Home</Link>
+        <Link to="/">STEAM Outreach :)</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/contact">Contact</Link>
       </header>

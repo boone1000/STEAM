@@ -3,22 +3,27 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
-import Portfolio from './pages/Portfolio'
-import Contact from './pages/Contact'
+import Educators from './pages/educators'
+import Stories from './pages/stories'
+import Students from './pages/students'
+
 
 function App() {
   return <BrowserRouter>
     <div className="App">
 
       <header className="App-header">
-        <Link to="/">STEAM Outreach :)</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/">Home</Link>
+        <Link to="/educators">Educators</Link>
+        <Link to="/stories">Stories</Link>
+        <Link to="/students">Students</Link>
       </header>
 
       <Route path="/" exact component={Home} />
-      <Route path="/portfolio" component={Portfolio} />
-      <Route path="/contact" component={Contact} />
+      <Route path="/educators" component={Educators} />
+      <Route path="/stories" component={Stories} />
+      <Route path="/students" component={Students} />
+
 
     </div>
   </BrowserRouter>

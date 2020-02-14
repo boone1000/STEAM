@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Portfolio(){
+function Students(){
     return <div className="page">
-        <h1>Portfolio!</h1>
+        <h1>Students!</h1>
     </div>
 }
 
-export default Portfolio
+export default Students

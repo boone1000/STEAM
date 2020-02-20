@@ -2,27 +2,17 @@ import React from 'react'
 
 function Home(){
     return <div className="page">
-        <div>
-            <h1>STEM Play</h1>
-            <p>Learning with curiosity, creativity, and movement.</p>
+        <div className="section">
+            <h1>STEAM Play</h1>
+            <p>Learning with curiosity, creativity, and movement. We believe
+                that the arts can be leveraged to increase interest and engagement
+                with STEM topics and create more inclusive classrooms. 
+                Our curriculum is a unique blend of STEM and the arts. Each
+                activity is designed to explore STEM topics through creativity 
+                and movement.
+            </p>
         </div>
-        <div>
-            <h2>Curriculum Modules</h2>
-            <div>
-                <p>modules go in here</p>
-            </div>
-        </div>
-        <div>
-            <h2>Educator's Guide</h2>
-            {/* <Button>Download Here</Button> */}
-        </div>
-        <div>
-            <h2>Other Curriculum Resources</h2>
-            <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-            </ul>
-        </div>
+        
 
 
         

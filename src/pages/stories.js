@@ -2,7 +2,10 @@ import React from 'react'
 
 function Stories(){
     return <div className="page">
-        <h1>Stories!</h1>
+        <div className="section-cover">
+            <h1>Stories</h1>
+            <p>delete this page? </p>
+        </div>
     </div>
 }
 

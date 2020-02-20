@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './media.css'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Educators from './pages/educators'

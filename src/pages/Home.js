@@ -11,6 +11,7 @@ function Home(){
                 activity is designed to explore STEM topics through creativity 
                 and movement.
             </p>
+            <img src='https://image.freepik.com/free-vector/colorful-female-scientist-illustration_23-2148424107.jpg'></img>
         </div>
         
 

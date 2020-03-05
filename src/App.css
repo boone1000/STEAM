@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import '~antd/dist/antd.css';
+
 
 @fontface {
   font-family: 'Unica One';
@@ -45,8 +47,8 @@
 .section {
   padding-top: 200px; 
   padding-bottom: 200px;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 15%;
+  padding-right: 15%;
   flex: absolute;
   background-color: #F9E6CA;
 }
@@ -69,4 +71,19 @@ h1{
 h2{
   font-size:2rem;
   font-family: 'Unica One';
+}
+
+#character1{
+  background-color:#BE5358;
+  position: fixed;
+  /* background-image: url(character1.png); */
+  /* background-size: contain; BE5358*/
+  color: white;
+}
+
+.resourceItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.5rem;
 }

@@ -24,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #F6C07B;
+  background-color: #F9EBDE;
   min-height: 60px;
   display: flex;
   flex-direction: row;
@@ -32,11 +32,11 @@
   justify-content: center;
   color: white;
   font-size: 1.5rem;
-  font-family: 'Unica One';
+  /* font-family: 'Unica One'; */
   text-decoration: none;
 }
 .App-header a {
-  color:white;
+  color:#3E2B49;
   margin:0 25px;
 }
 
@@ -50,7 +50,7 @@
   padding-left: 15%;
   padding-right: 15%;
   flex: absolute;
-  background-color: #F9E6CA;
+  background-color: #F9EBDE;
 }
 
 .section-cover {
@@ -59,18 +59,19 @@
   padding-left: 30%;
   padding-right: 30%;
   flex: absolute;
-  background-color:#F3A488;
+  background-color:#BE5358;
   color: white;
 }
 
 h1{
   font-size: 3rem;
-  font-family: 'Unica One';
+  /* font-family: 'Unica One'; */
 }
 
 h2{
   font-size:2rem;
-  font-family: 'Unica One';
+  /* font-family: 'Unica One'; */
+  color:Black;
 }
 
 #character1{
@@ -82,8 +83,25 @@ h2{
 }
 
 .resourceItem{
+  padding: 1rem;
+}
+
+.resourceList{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resourceCard{
+  background-color: #F9EBDE;
+  border-style: solid;
+  border-color: #C2A3B4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.app-Footer{
+  background-color:#3E2B49;
+  margin-bottom: 0px;
+  height: 100px;
 }

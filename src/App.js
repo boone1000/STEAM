@@ -28,9 +28,17 @@ function App() {
       {/* <Route path="/stories" component={Stories} /> */}
       <Route path="/students" component={Students} />
 
-
     </div>
+
+    <footer>
+        <div className="app-Footer">
+        </div>
+      </footer>
+
   </BrowserRouter>
+  
 }
+
+
 
 export default App;

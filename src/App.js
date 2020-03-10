@@ -28,13 +28,15 @@ function App() {
       {/* <Route path="/stories" component={Stories} /> */}
       <Route path="/students" component={Students} />
 
-    </div>
-
-    <footer>
+      <footer>
         <div className="app-Footer">
         </div>
       </footer>
 
+
+    </div>
+
+    
   </BrowserRouter>
   
 }

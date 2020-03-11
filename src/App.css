@@ -3,10 +3,10 @@
 @import '~antd/dist/antd.css';
 
 
-@fontface {
+/* @fontface {
   font-family: 'Unica One';
   src: url('https://fonts.googleapis.com/css?family=Unica+One&display=swap')
-}
+} */
 
 @fontface {
   font-family: 'Nunito';

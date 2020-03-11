@@ -20,7 +20,6 @@ function App() {
         <Link to="/educators">Educators</Link>
         {/* <Link to="/stories">Stories</Link> */}
         <Link to="/students">Students</Link>
-
       </header>
 
       <Route path="/" exact component={Home} />

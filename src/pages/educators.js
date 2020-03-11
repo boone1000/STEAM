@@ -72,6 +72,15 @@ function educators(){
 
             <div className='resourceItem'>
                 <Card className='resourceCard' style={{ width: 350 }}>
+                    <h3>Scratch Activity Cards</h3>
+                    <p>Printable cards with innovative activities students can make using Scratch online</p>
+                    <Button href='https://resources.scratch.mit.edu/www/cards/en/scratch-cards-all.pdf'>
+                        Check it Out</Button>
+                </Card>
+            </div>
+            
+            <div className='resourceItem'>
+                <Card className='resourceCard' style={{ width: 350 }}>
                     <h3>IBM: Teacher Advisor with Watson</h3>
                     <p>Lessons and activity plans for math teachers</p>
                     <Button href='https://teacheradvisor.org/3/search?query=Math%20homework'>
@@ -79,14 +88,6 @@ function educators(){
                 </Card>
             </div>
 
-            <div className='resourceItem'>
-                <Card className='resourceCard' style={{ width: 350 }}>
-                    <h3>Scratch Activity Cards</h3>
-                    <p>Printable cards with innovative activities students can make using Scratch online</p>
-                    <Button href='https://resources.scratch.mit.edu/www/cards/en/scratch-cards-all.pdf'>
-                        Check it Out</Button>
-                </Card>
-            </div>
         </div>
         </div>
     </div>

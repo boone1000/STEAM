@@ -37,14 +37,19 @@ function Students(){
                         <Button>Let's Go!</Button>
                     </div>
                     <div>
-                        <p>yes</p>
-                        <p>hullo?</p>
+                        <h3>Simone Giertz</h3>
+                        <p>Maker and robotics enthusiast</p>
+                        <Button href='https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ/'>Let's Go!</Button>
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <h3>Sistas in STEM</h3>
+                        <p>an online community and resource for women of color</p>
+                        <Button href='https://www.youtube.com/watch?v=-kK2lPUWUIo'>Let's Go!</Button>
                     </div>
                     <div>
-                        <h3>4</h3>
+                        <h3>VSauce</h3>
+                        <p>Exploring the questions that unite our curiosity</p>
+                        <Button href='https://www.youtube.com/user/Vsauce'>Let's Go!</Button>
                     </div>
                 </Carousel>
             </div>

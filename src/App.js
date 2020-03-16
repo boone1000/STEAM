@@ -29,17 +29,13 @@ function App() {
 
       <footer>
         <div className="app-Footer">
+          <p>Website Created by Ashley Boone March 2020</p>
         </div>
       </footer>
 
-
     </div>
-
     
   </BrowserRouter>
-  
 }
-
-
 
 export default App;

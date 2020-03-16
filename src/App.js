@@ -16,10 +16,10 @@ function App() {
   return <BrowserRouter>
     <div className="App">
       <header className="App-header">
-        <Link to="STEAM/">Home</Link>
-        <Link to="STEAM/educators">Educators</Link>
+        <Link to="/">Home</Link>
+        <Link to="/educators">Educators</Link>
         {/* <Link to="/stories">Stories</Link> */}
-        <Link to="STEAM/students">Students</Link>
+        <Link to="/students">Students</Link>
       </header>
 
       <Route path="STEAM/" exact component={Home} />

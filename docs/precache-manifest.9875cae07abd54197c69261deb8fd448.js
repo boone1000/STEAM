@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f0314cd039b62ce7defa2651add9ce8",
+    "revision": "8dfba447343753a69edcef11a87fb048",
     "url": "/STEAM/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/STEAM/static/css/2.563af9af.chunk.css"
   },
   {
-    "revision": "5979ee2c743ca806c723",
-    "url": "/STEAM/static/css/main.e25b2a44.chunk.css"
+    "revision": "74e0c0205f39371ad2f3",
+    "url": "/STEAM/static/css/main.f813a0b3.chunk.css"
   },
   {
     "revision": "c2ef5618efb04fce52fc",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/STEAM/static/js/2.43d4a8c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5979ee2c743ca806c723",
-    "url": "/STEAM/static/js/main.c1f56172.chunk.js"
+    "revision": "74e0c0205f39371ad2f3",
+    "url": "/STEAM/static/js/main.70b6b45b.chunk.js"
   },
   {
     "revision": "bd10cfa88a9b42a50323",

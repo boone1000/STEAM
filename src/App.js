@@ -16,16 +16,16 @@ function App() {
   return <BrowserRouter>
     <div className="App">
       <header className="App-header">
-        <Link to="/">Home</Link>
-        <Link to="/educators">Educators</Link>
+        <Link to="STEAM/">Home</Link>
+        <Link to="STEAM/educators">Educators</Link>
         {/* <Link to="/stories">Stories</Link> */}
-        <Link to="/students">Students</Link>
+        <Link to="STEAM/students">Students</Link>
       </header>
 
-      <Route path="/" exact component={Home} />
-      <Route path="/educators" component={Educators} />
+      <Route path="STEAM/" exact component={Home} />
+      <Route path="STEAM/educators" component={Educators} />
       {/* <Route path="/stories" component={Stories} /> */}
-      <Route path="/students" component={Students} />
+      <Route path="STEAM/students" component={Students} />
 
       <footer>
         <div className="app-Footer">

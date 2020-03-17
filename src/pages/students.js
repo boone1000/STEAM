@@ -20,10 +20,10 @@ function Students(){
 
         <div className="section">
             <h2>Student Playbook</h2>
-            <p>For fun DIY activities, coloring pages, and games, downloade
+            <p>For fun DIY activities, coloring pages, and games, download
                 our workbook below!
             </p>
-            <Button>Download Now!</Button>
+            <Button href='https://adcouncil-campaigns.brightspotcdn.com/4d/65/541b508b4872b195f770b448edbf/amplifier-education-toolkit-she-can-stem.pdf'>Download Now!</Button>
         </div>
 
        <div className='section'>
@@ -34,7 +34,7 @@ function Students(){
                     <div>
                         <h3>NOVA Science Now</h3>
                         <p>Videos about the latest updates in science and technology</p>
-                        <Button>Let's Go!</Button>
+                        <Button href='https://www.youtube.com/playlist?list=PLtgo2SkwdN6g9-VPAwJQQM1M77w8mSAQJ'>Let's Go!</Button>
                     </div>
                     <div>
                         <h3>Simone Giertz</h3>

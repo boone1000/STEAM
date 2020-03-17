@@ -22,10 +22,10 @@ function App() {
         <Link to="/students">Students</Link>
       </header>
 
-      <Route path="STEAM/" exact component={Home} />
-      <Route path="STEAM/educators" component={Educators} />
+      <Route path="/" exact component={Home} />
+      <Route path="/educators" component={Educators} />
       {/* <Route path="/stories" component={Stories} /> */}
-      <Route path="STEAM/students" component={Students} />
+      <Route path="/students" component={Students} />
 
       <footer>
         <div className="app-Footer">
